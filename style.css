@@ -99,27 +99,27 @@ body {
     border-radius: 1ch;
 }
 
-.card-1, .card-top-1 {
+.card-work, .card-top-work {
     background-color: var(--light-orange);
 }
 
-.card-2, .card-top-2 {
+.card-play, .card-top-play {
     background-color: var(--soft-blue);
 }
 
-.card-3, .card-top-3 {
+.card-study, .card-top-study {
     background-color: var(--light-red);
 }
 
-.card-4, .card-top-4 {
+.card-exercise, .card-top-exercise {
     background-color: var(--lime-green);
 }
 
-.card-5, .card-top-5 {
+.card-social, .card-top-social {
     background-color: var(--violet);
 }
 
-.card-6, .card-top-6 {
+.card-self-care, .card-top-self-care {
     background-color: var(--soft-orange);
 }
 
