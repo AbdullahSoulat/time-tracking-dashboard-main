@@ -38,7 +38,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    align-items: center;
+    place-items: stretch;
     gap: 1em;
     margin: 1em;
 }
@@ -47,7 +47,7 @@ body {
     grid-row: span 2;
     border-radius: 1ch;
     background-color: var(--dark-blue);
-    max-width: 300px;
+    /* max-width: 300px; */
     word-wrap: break-word;
 }
 
@@ -181,6 +181,7 @@ body {
 @media (max-width: 575px) {
     .grid-container {
         grid-template-columns: 1fr;
+        width: 90vw;
     }
 
     .profile-top {

@@ -99,7 +99,7 @@ function makeNewCards(mode) {
                     break;
                 case 'Self Care':
                     cardSVG = 'images/icon-self-care.svg';
-                    cardTitle = 'self-care';
+                    cardTitle = 'Self-care';
                     break;
             }
 
