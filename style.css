@@ -97,6 +97,13 @@ body {
 
 .card {
     border-radius: 1ch;
+    transition: 0.3s all;
+    animation: pop 0.3s ease-in-out;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(107%);
 }
 
 .card-work, .card-top-work {
@@ -166,6 +173,14 @@ body {
 
 .heading > img {
     cursor: pointer;
+}
+
+@keyframes pop {
+    0% {
+        transform: scale(0);
+    } 100% {
+        transform: scale(1);
+    }
 }
 
 @media(max-width: 1000px) {
