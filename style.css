@@ -168,7 +168,17 @@ body {
     cursor: pointer;
 }
 
-@media (max-width: 890px) {
+@media(max-width: 900px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .profile {
+        grid-row: 1 / span 2;
+    }
+}
+
+@media (max-width: 575px) {
     .grid-container {
         grid-template-columns: 1fr;
     }
